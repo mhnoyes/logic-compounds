@@ -22,17 +22,44 @@ The framework operates on a rigid cascading progression matrix:
 
 ```text
 logic-compounds/
-├── sources/
-└── studio/
-
+├── sources/ # Core curriculum assets
+│ ├── syllabus.md # Course syllabus
+│ ├── 01-22.md # Method files (440 total runtime templates (executable), 22 taxonomies, 22 heuristics)
+│ ├── code-generation.md # Course premise syntax decays, logic compounds
+│ ├── prompt-engineering-knowledge-level-matrix.md - Prompt evaluation rubric
+│ ├── core-invariant-graph.md # Dependency tree of logical method compounding
+│ ├── integration-matrix-and-technical-critique-for-course-architecture.md # Technical critique for course architecture
+│ ├── tier-[1-5].md # Granular tier curriculum critiques
+│ ├── evaluation-rubric.md # AI static role prompt evaluation rubric
+│ ├── handoff.md # Session state handoff
+│ └── state-crystallization.md # Session state archive and hydration
+└── studio/ # Course notes and miscellaneous files
+  ├── pacing-strategy-analysis.md # Suggested course pacing
+  ├── invariant-logic-curriculum.md # how the course was designed
+  ├── virtual-execution-stack.md # code-free virtual runtime environment and logic compiler
+  ├── prompt-engineering-curricula.md # search for equivalent courses
+  ├── natural-language-code.md # adoption bottleneck
+  ├── architecting-ai-mastery.md # course value
+  ├── cognitive-longevity.md # cognitive workout regime
+  ├── handoff.md # Duplicate from sources
+  ├── state-crystallization.md # Duplicate from sources
+  ├── stitch-prompt-guide.md # Updated Google Stitch Prompt Guide
+  └── licensing-and-open-access-of-prompt-engineering-frameworks.md # Initial search for restricted content
 ```
 
 * **[sources/](https://www.google.com/search?q=sources/)**: Contains the core Gemini Notebook source files capturing the foundational curriculum and documentation.
-* **[studio/](https://www.google.com/search?q=studio/)**: Houses the Google AI Studio configuration assets, system instructions, and dynamic prompt templates.
+* **[studio/](https://www.google.com/search?q=studio/)**: Contains Gemini Notebook Studio notes.
 
-## Context-Bounded Safeguards
+## ⚠️ Runtime Execution Safeguards
 
-When working with or migrating prompt repositories based on this framework, standard global search-and-replace scripts must be avoided. Modifying files without context awareness risks corrupting literal token blocks, ASCII dependency trees, schema models, and GBNF grammar definitions. Use context-bounded parsing methods to ensure invariants remain uncompromised.
+Because this framework treats natural language as a formal intermediate representation, **these files function as executable code running directly within the context window runtime environment.** 
+
+Modifying these files using un-scoped text automation or crude global search-and-replace scripts will corrupt literal token blocks, distort ASCII token trees, and break structural micro-grammars. This causes immediate compilation failure inside the LLM attention mechanism. Extreme caution must be taken when interacting with these specific runtime assets:
+
+*   ⚙️ **The Method Core (`sources/01-22-*.md`):** These 440 highly calibrated execution templates operate as pure functional logic. Modifying a block out of context will corrupt the downstream reasoning cascade when executed in the runtime.
+*   ⚙️ **The Evaluation Engine (`sources/evaluation-rubric.md`):** Controls real-time output parsing and token telemetry. Arbitrary edits break the runtime's ability to cleanly isolate data from logic.
+*   ⚙️ **The Handoff Architecture (`sources/handoff.md` & `studio/handoff.md`):** Dictates how active execution states shift across multi-turn sessions. Modifying the syntax breaks the state machine's transfer parameters.
+*   ⚙️ **The State Registers (`sources/state-crystallization.md` & `studio/state-crystallization.md`):** Dictates memory retention and token garbage collection. Tinkering with these structures causes immediate runtime amnesia or context collapse.
 
 ## License
 
