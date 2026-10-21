@@ -88,3 +88,10 @@ logic-compounds/
     ├── cognitive-longevity.md # Cognitive workout regime notes
     ├── stitch-prompt-guide.md # Updated Google Stitch Prompt Guide
     └── licensing-and-open-access-of-prompt-engineering-frameworks.md # Open access framework research
+```
+
+---
+
+## License
+
+Distributed under the MIT License. See [LICENSE](https://www.google.com/search?q=LICENSE) for details.
